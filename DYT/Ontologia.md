@@ -1,13 +1,6 @@
 
 ```mermaid
 graph TD
-    %% Atributos Base
-    Pelo[Tiene pelo] --> Mamifero((Mamífero))
-    Leche[Da leche a crías] --> Mamifero
-    Plumas[Tiene plumas] --> Ave((Ave))
-    Vuela[Vuela] --> Ave
-    Huevos[Pone huevos] --> Ave
-
     %% Clasificación Mamíferos
     Mamifero -->|Come carne| Carnivoro((Carnívoro))
     Mamifero -->|Tiene pezuñas| Ungulado((Ungulado))
